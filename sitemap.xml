@@ -3,12 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://ke-sun.github.io/publication-type/2/</loc>
+    <loc>https://ke-sun.github.io/talk/example/</loc>
+    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ke-sun.github.io/</loc>
+    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ke-sun.github.io/talk/</loc>
+    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc></loc>
     <lastmod>2020-12-21T12:44:44-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ke-sun.github.io/authors/</loc>
+    <loc>https://ke-sun.github.io/publication-type/2/</loc>
     <lastmod>2020-12-21T12:44:44-05:00</lastmod>
   </url>
   
@@ -18,22 +33,17 @@
   </url>
   
   <url>
-    <loc>https://ke-sun.github.io/author/brent-schlotfeldt/</loc>
+    <loc></loc>
     <lastmod>2020-12-21T12:44:44-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ke-sun.github.io/author/george-pappas/</loc>
+    <loc></loc>
     <lastmod>2020-12-21T12:44:43-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ke-sun.github.io/author/ke-sun/</loc>
-    <lastmod>2020-12-21T12:44:44-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ke-sun.github.io/</loc>
+    <loc></loc>
     <lastmod>2020-12-21T12:44:44-05:00</lastmod>
   </url>
   
@@ -53,7 +63,7 @@
   </url>
   
   <url>
-    <loc>https://ke-sun.github.io/author/vijay-kumar/</loc>
+    <loc></loc>
     <lastmod>2020-12-21T12:44:44-05:00</lastmod>
   </url>
   
@@ -88,27 +98,37 @@
   </url>
   
   <url>
-    <loc>https://ke-sun.github.io/author/gulshan-mandhyan/</loc>
+    <loc></loc>
     <lastmod>2020-12-21T12:44:44-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ke-sun.github.io/author/paul-martin/</loc>
+    <loc></loc>
     <lastmod>2020-12-21T12:44:44-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ke-sun.github.io/author/stephen-chaves/</loc>
+    <loc></loc>
     <lastmod>2020-12-21T12:44:44-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ke-sun.github.io/author/bernd-pfrommer/</loc>
+    <loc>https://ke-sun.github.io/slides/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ke-sun.github.io/slides/example/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc></loc>
     <lastmod>2020-12-21T12:44:44-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ke-sun.github.io/author/camillo-j-taylor/</loc>
+    <loc></loc>
     <lastmod>2020-12-21T12:44:44-05:00</lastmod>
   </url>
   
@@ -118,27 +138,27 @@
   </url>
   
   <url>
-    <loc>https://ke-sun.github.io/author/george-j-pappas/</loc>
+    <loc></loc>
     <lastmod>2020-12-21T12:44:44-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ke-sun.github.io/author/kartik-mohta/</loc>
+    <loc></loc>
     <lastmod>2020-12-21T12:44:44-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ke-sun.github.io/author/kelsey-saulnier/</loc>
+    <loc></loc>
     <lastmod>2020-12-21T12:44:44-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ke-sun.github.io/author/michael-watterson/</loc>
+    <loc></loc>
     <lastmod>2020-12-21T12:44:44-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ke-sun.github.io/author/nikolay-atanasov/</loc>
+    <loc></loc>
     <lastmod>2020-12-21T12:44:44-05:00</lastmod>
   </url>
   
@@ -148,33 +168,63 @@
   </url>
   
   <url>
-    <loc>https://ke-sun.github.io/author/sikang-liu/</loc>
+    <loc></loc>
     <lastmod>2020-12-21T12:44:44-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ke-sun.github.io/author/yash-mulgaonkar/</loc>
+    <loc></loc>
     <lastmod>2020-12-21T12:44:44-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ke-sun.github.io/tag/academic/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://ke-sun.github.io/categories/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ke-sun.github.io/author/ke-sun/</loc>
+    <loc>https://ke-sun.github.io/category/demo/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc></loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://ke-sun.github.io/post/</loc>
-  </url>
-  
-  <url>
-    <loc>https://ke-sun.github.io/talk/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://ke-sun.github.io/tags/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ke-sun.github.io/post/getting-started/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc></loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ke-sun.github.io/tag/%E5%BC%80%E6%BA%90/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ke-sun.github.io/category/%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url>
   
 </urlset>
