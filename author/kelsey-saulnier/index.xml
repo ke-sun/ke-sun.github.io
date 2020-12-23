@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kelsey Saulnier | Ke Sun</title>
+    <link>https://ke-sun.github.io/author/kelsey-saulnier/</link>
+      <atom:link href="https://ke-sun.github.io/author/kelsey-saulnier/index.xml" rel="self" type="application/rss+xml" />
+    <description>Kelsey Saulnier</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ke-sun.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Kelsey Saulnier</title>
+      <link>https://ke-sun.github.io/author/kelsey-saulnier/</link>
+    </image>
+    
+    <item>
+      <title>Dense 3-D Mapping with Spatial Correlation via Gaussian Filtering</title>
+      <link>https://ke-sun.github.io/publication/sun-2018-dense/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://ke-sun.github.io/publication/sun-2018-dense/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

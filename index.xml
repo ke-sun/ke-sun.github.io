@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ke Sun</title>
+    <link>https://ke-sun.github.io/</link>
+      <atom:link href="https://ke-sun.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ke Sun</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ke-sun.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Ke Sun</title>
+      <link>https://ke-sun.github.io/</link>
+    </image>
+    
+    <item>
+      <title>Belief Space Planning for Mobile Robots with Range Sensors using iLQG</title>
+      <link>https://ke-sun.github.io/publication/sun-2020-belief/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://ke-sun.github.io/publication/sun-2020-belief/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stochastic Motion Planning under Partial Observability for Mobile Robots with Continuous Range Measurements</title>
+      <link>https://ke-sun.github.io/publication/sun-2020-stochastic/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://ke-sun.github.io/publication/sun-2020-stochastic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stochastic Motion Planning</title>
+      <link>https://ke-sun.github.io/project/stochastic-motion-planning/</link>
+      <pubDate>Mon, 21 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://ke-sun.github.io/project/stochastic-motion-planning/</guid>
+      <description>&lt;p&gt;This is my research project, which considers the problem of motion planning that handles system uncertainty.
+The &amp;ldquo;official&amp;rdquo; name of the problem is stochastic control.
+But, I think it paints a better picture to call it &lt;strong&gt;Stochastic Motion Planning&lt;/strong&gt; to remind us we are planning trajectories for vehicles instead of, for example, balancing a inverted pendulum.
+(Although in theory, the two problems are not so different despite the dissimilarity in the systems.)&lt;/p&gt;
+&lt;p&gt;The research is motivated by the wide adoption of (half of) the &lt;strong&gt;separation theorem&lt;/strong&gt; in practical applications.
+The separation theorem allows control algorithms to assume the availability of perfect state knowledge.
+It is true for linear systems with quadratic costs, beyond which, the theorem is hard to justify.
+Unfortunately, almost all robotic systems that we are interested in are nonlinear, while few state estimation algorithm is able to estimate the state perfectly.
+Failing to meet the assumption can jeopardize the reliability and safety of the system.&lt;/p&gt;
+&lt;p&gt;My goal in this research project is to address the stochastic motion planning problem in a principled way by
+(1) modeling it as a Partially Observable Markov Decision Process (POMDP), and
+(2) develop algorithms therefor.&lt;/p&gt;
+&lt;h2 id=&#34;belief-space-planning-using-ilqg&#34;&gt;&lt;strong&gt;Belief Space Planning using iLQG&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;In this work, we extend iterative Linear-Quadratic-Gaussian (iLQG) to solve the stochastic motion planning problem.
+The specific task under consideration is to navigate a car-like robot with Lidar from point A to B in a known environment.&lt;/p&gt;
+&lt;p&gt;This work addresses two limitations of &lt;a href=&#34;https://journals.sagepub.com/doi/abs/10.1177/0278364912456319&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;iLQG introduced by van den Burg&lt;/a&gt; that prevent its application to navigate common autonomous vehicles:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Cannot work with nondifferentiable motion and measurement models.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Measurement models for Lidars are often nondifferentiable because of the discontinuity in the environment.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Degenerate with sparse informative measurements.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Informative measurements from commonly used sensors, such as Lidars and cameras, are sparse because of the limited sensing range.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Below highlights belief trajectories planned by our work and some other methods that can be also applied in practice to navigate a car-like robot with Lidar.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;./fr101_ilqr_traj.png&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;fr101_ml_ilqg_traj.png&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;fr101_ukf_ilqg_traj.png&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;iLQR&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ML-iLQG&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Modified-iLQG (our work)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;iLQR&lt;/strong&gt;: The trajectory is optimized with iLQR which only considers motion uncertainty while assumes perfect state infomration.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;M-iLQG&lt;/strong&gt;: The trajectory is optimized with iLQG assuming maximum likelihood future measurements.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As the figure shows, the modified iLQG (our work) is able to actively drive the robot along the wall for more accurate localization.&lt;/p&gt;
+&lt;p&gt;Related publication: &lt;a href=&#34;&#34;&gt;[under review]&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;pomcp-a-general-pomdp-solver&#34;&gt;&lt;strong&gt;POMCP++: A General POMDP Solver&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Using iLQG to solve POMDPs is efficient in finding a local optimum.
+Especially, once the solution is found offline, the time to generate control inputs online is negligible.&lt;/p&gt;
+&lt;p&gt;However, iLQG comes with intrinsic limitations.
+First, iLQG requires explicit formulations of the system models, which can be sometimes out of reach (like only generative models are available).
+Second, iLQG requires the objective function to be second-order differentiable.
+It could be unintuitive to define costs satisfying this property.
+Further, it is often hard to babysit the parameters of various cost terms to achieve a desired trajectory (maybe this is a common headache for almost all LQR solutions).&lt;/p&gt;
+&lt;p&gt;General POMDP solvers, like &lt;a href=&#34;http://www.cs.cmu.edu/~ggordon/jpineau-ggordon-thrun.ijcai03.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[Pineau, IJCAI2013]&lt;/a&gt;, pose minimal assumptions on the system and task modeling, which address the aforementioned limitations of iLQG.
+However, general POMDP solvers are often good for discrete systems (systems with finite discrete state, control and measurement spaces).
+Few success has been reported in applying general POMDP solvers to continuous robotic systems, such as navigating a car-like robot with Lidar.&lt;/p&gt;
+&lt;p&gt;In this work, we propose POMCP++ built upon &lt;a href=&#34;https://papers.nips.cc/paper/2010/hash/edfbe1afcf9246bb0d40eb4d8027d90f-Abstract.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;POMCP by Silver&lt;/a&gt;, which can be applied to continuous robotic systems. More specifically, we address the following limitations of POMCP:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Degenerate with continous measurement space.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;With continous measurement space, POMCP degenerate to a shallow tree of depth one.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Over-optimistic in estimating values for state-dependent rollout policies.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This limitation does not exist for state-independent rollout policies, like a random rollout policy.
+However, it is often desired to use a more &amp;ldquo;intelligent&amp;rdquo; rollout policy by leveraging domain knowledge.
+As in the case of motion planning, we may use deterministic motion planning methods, such as A*, to generate rollout policies.
+Such rollout policies are state-dependent.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Below shows the comparison between POMCP++ and some other methods in a simulation.
+The task is to navigate a car-like robot with Lidar from bottom left (gray dot) of the map to top right (green dot).
+Since there is no obstacle in the map, we may expect the robot to actively approach the edges or corners to reduce its localization uncertainty. The blue and red paths are success and failure cases over 100 simulations.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;./special_map2.png&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;special_map2_path_dmpp.png&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;special_map2_path_despot.png&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;configuration&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;RHC&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;DESPOT&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;special_map2_path_pomcpow.png&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;special_map2_path_pomcp.png&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;POMCPOW&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;POMCP++ (our work)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;RHC&lt;/strong&gt;: (Receding Horizon Control) The method assumes separation principle. At every step, an action is planned based on the mode of the current belief.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://arxiv.org/abs/1609.03250&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DESPOT&lt;/a&gt;&lt;/strong&gt;: A state-of-the-art general POMDP solver for discrete systems.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://arxiv.org/abs/1709.06196&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;POMCPOW&lt;/a&gt;&lt;/strong&gt;: Another work on improving POMCP for continuous systems.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As the figure shows, under POMCP++, the robot is able to reliably utilize the top right corner for better localization before approaching the goal. As a result, a higher success rate is attained.&lt;/p&gt;
+&lt;p&gt;Related publication: &lt;a href=&#34;https://arxiv.org/abs/2011.11836&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[Sun, TRO2021]&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;future-research-ideas&#34;&gt;&lt;strong&gt;Future Research Ideas&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Improve the efficiency of POMCP++.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Extend the work to motion planning in unknown environments.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Autonomous Driving</title>
+      <link>https://ke-sun.github.io/project/autonomous-driving/</link>
+      <pubDate>Sun, 20 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://ke-sun.github.io/project/autonomous-driving/</guid>
+      <description>&lt;p&gt;This is an on-going research project funded by Qualcomm.
+The goal of the project is advance the motion/behavior planning algorithms for self-driving vehicles.&lt;/p&gt;
+&lt;p&gt;As an initial step, we made the following assumptions to make the problem more accessible:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The traffic is a deterministic system.&lt;/li&gt;
+&lt;li&gt;The behavior of agent vehicles (vehicles around the self-driving/ego vehicle) are known.
+We assume agent vehicles are lane follows with acceleration modulated by an intelligent driver model.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We proposed Feedback Enhanced Lattice Planner (FELP).
+The contribution of the work were:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We used feedback, instead of open-loop, motion primitives for the ego vehicle (thus the name of the method).
+The lattice dimension to be searched is reduced, leading to a reduction in runtime complexity.&lt;/li&gt;
+&lt;li&gt;We introduced two variants of FELP to further reduce the runtime complexity to polynomial time.&lt;/li&gt;
+&lt;li&gt;We further proposed a directed graph map to model the structured road environment.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Below is a video highlighting FELP working with CARLA simulator.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=TxMY1dvHFog&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;https://img.youtube.com/vi/TxMY1dvHFog/hqdefault.jpg&#34; alt=&#34;Sun IROS2020&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Related publication:
+&lt;a href=&#34;https://arxiv.org/abs/2007.05794&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[Sun, IROS2020]&lt;/a&gt;
+&lt;a href=&#34;https://github.com/KumarRobotics/conformal_lattice_planner&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[Code]&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;For the next step, we beg the question of modeling the stochasticity in traffic dynamics and planning motions for the ego vehicle therein.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Fast Lightweight Autonomy</title>
+      <link>https://ke-sun.github.io/project/fast-lightweight-autonomy/</link>
+      <pubDate>Sat, 19 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://ke-sun.github.io/project/fast-lightweight-autonomy/</guid>
+      <description>&lt;p&gt;The project was funded by DARPA (2015-2018).
+The goal was to understand the capability of MAVs in navigating unknown cluttered environments rapidly and autonomously using only onboard sensors (GPS-denied) and computation devices (cannot contact ground control for instructions).&lt;/p&gt;
+&lt;p&gt;Maybe the PIs explained the project better than I did.
+&lt;a href=&#34;https://www.youtube.com/watch?v=_UFabSMuz6w&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;https://img.youtube.com/vi/_UFabSMuz6w/hqdefault.jpg&#34; alt=&#34;FLA interview&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;UPenn (collaborated with OSRF and UZH) was one of the three teams. Below shows some video highlights of our group effort.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=6eeetSVHXPk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;https://img.youtube.com/vi/6eeetSVHXPk/hqdefault.jpg&#34; alt=&#34;Mohta ICRA2018&#34;&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=nVbZjbm4i84&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;https://img.youtube.com/vi/nVbZjbm4i84/hqdefault.jpg&#34; alt=&#34;Watterson 2018&#34;&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Related publications:
+&lt;a href=&#34;https://arxiv.org/abs/1712.02052&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[Mohta, JFR2017]&lt;/a&gt;
+&lt;a href=&#34;https://arxiv.org/abs/1806.07053&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[Mohta, ICRA2018]&lt;/a&gt;
+&lt;a href=&#34;https://arxiv.org/abs/1809.07674&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[Quigley, ICRA2019]&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;My major contribution in this project was the development of a stereo visual initial odometry, called S-MSCKF.
+As the name suggests, S-MSCKF is an extension of MSCKF (originally proposed by Dr. Mourikis) to stereo cameras.
+With stereo cameras, robustness of the odometry is improved (no longer need to wait for multiple frames to get the depth of a point feature).
+S-MSCKF has been tested and proved to be reliable in various challenging scenarios, such as indoor-outdoor transition, feature-poverty scenes, fast motion (up to 18m/s).&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=OXSB8Bze0cY&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;https://img.youtube.com/vi/OXSB8Bze0cY/hqdefault.jpg&#34; alt=&#34;Sun ICRA2018&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Related publication:
+&lt;a href=&#34;https://arxiv.org/abs/1712.00036&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[Sun, ICRA2018]&lt;/a&gt;
+&lt;a href=&#34;https://github.com/KumarRobotics/msckf_vio&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[Code]&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Feedback Enhanced Motion Planning for Autonomous Vehicles</title>
+      <link>https://ke-sun.github.io/publication/sun-2020-feedback/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://ke-sun.github.io/publication/sun-2020-feedback/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dense 3-D Mapping with Spatial Correlation via Gaussian Filtering</title>
+      <link>https://ke-sun.github.io/publication/sun-2018-dense/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://ke-sun.github.io/publication/sun-2018-dense/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robust Stereo Visual Inertial Odometry for Fast Autonomous Flight</title>
+      <link>https://ke-sun.github.io/publication/sun-2018-robust/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://ke-sun.github.io/publication/sun-2018-robust/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

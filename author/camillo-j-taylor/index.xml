@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Camillo J Taylor | Ke Sun</title>
+    <link>https://ke-sun.github.io/author/camillo-j-taylor/</link>
+      <atom:link href="https://ke-sun.github.io/author/camillo-j-taylor/index.xml" rel="self" type="application/rss+xml" />
+    <description>Camillo J Taylor</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ke-sun.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Camillo J Taylor</title>
+      <link>https://ke-sun.github.io/author/camillo-j-taylor/</link>
+    </image>
+    
+    <item>
+      <title>Robust Stereo Visual Inertial Odometry for Fast Autonomous Flight</title>
+      <link>https://ke-sun.github.io/publication/sun-2018-robust/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://ke-sun.github.io/publication/sun-2018-robust/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
