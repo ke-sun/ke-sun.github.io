@@ -5,7 +5,7 @@
     <link>https://ke-sun.github.io/publication-type/2/</link>
       <atom:link href="https://ke-sun.github.io/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ke-sun.github.io/images/icon_hu6d66f09efe310b8ad7f3209e7ee864ae_219506_512x512_fill_lanczos_center_2.png</url>
       <title>2</title>
@@ -13,26 +13,42 @@
     </image>
     
     <item>
-      <title>Belief Space Planning for Mobile Robots with Range Sensors using iLQG</title>
-      <link>https://ke-sun.github.io/publication/sun-2020-belief/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://ke-sun.github.io/publication/sun-2020-belief/</guid>
+      <title>Stochastic Motion Planning under Partial Observability for Mobile Robots with Continuous Range Measurements</title>
+      <link>https://ke-sun.github.io/publication/sun-tro-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://ke-sun.github.io/publication/sun-tro-2020/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Stochastic Motion Planning under Partial Observability for Mobile Robots with Continuous Range Measurements</title>
-      <link>https://ke-sun.github.io/publication/sun-2020-stochastic/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://ke-sun.github.io/publication/sun-2020-stochastic/</guid>
+      <title>Trajectory optimization on manifolds with applications to quadrotor systems</title>
+      <link>https://ke-sun.github.io/publication/watterson-ijrr-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://ke-sun.github.io/publication/watterson-ijrr-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fast, autonomous flight in GPS-denied and cluttered environments</title>
+      <link>https://ke-sun.github.io/publication/mohta-jfr-2018/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://ke-sun.github.io/publication/mohta-jfr-2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Robust Stereo Visual Inertial Odometry for Fast Autonomous Flight</title>
-      <link>https://ke-sun.github.io/publication/sun-2018-robust/</link>
+      <link>https://ke-sun.github.io/publication/sun-ral-2018/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://ke-sun.github.io/publication/sun-2018-robust/</guid>
+      <guid>https://ke-sun.github.io/publication/sun-ral-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Planning Dynamically Feasible Trajectories for Quadrotors Using Safe Flight Corridors in 3-D Complex Environments</title>
+      <link>https://ke-sun.github.io/publication/liu-ral-2017/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://ke-sun.github.io/publication/liu-ral-2017/</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&#34;collision avoidance&#34; | Ke Sun</title>
+    <link>https://ke-sun.github.io/tag/collision-avoidance/</link>
+      <atom:link href="https://ke-sun.github.io/tag/collision-avoidance/index.xml" rel="self" type="application/rss+xml" />
+    <description>&#34;collision avoidance&#34;</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ke-sun.github.io/images/icon_hu6d66f09efe310b8ad7f3209e7ee864ae_219506_512x512_fill_lanczos_center_2.png</url>
+      <title>&#34;collision avoidance&#34;</title>
+      <link>https://ke-sun.github.io/tag/collision-avoidance/</link>
+    </image>
+    
+    <item>
+      <title>Fast, autonomous flight in GPS-denied and cluttered environments</title>
+      <link>https://ke-sun.github.io/publication/mohta-jfr-2018/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://ke-sun.github.io/publication/mohta-jfr-2018/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

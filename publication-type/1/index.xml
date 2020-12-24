@@ -14,17 +14,65 @@
     
     <item>
       <title>Feedback Enhanced Motion Planning for Autonomous Vehicles</title>
-      <link>https://ke-sun.github.io/publication/sun-2020-feedback/</link>
+      <link>https://ke-sun.github.io/publication/sun-iros-2020/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://ke-sun.github.io/publication/sun-2020-feedback/</guid>
+      <guid>https://ke-sun.github.io/publication/sun-iros-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Open Vision Computer: An Integrated Sensing and Compute System for Mobile Robots</title>
+      <link>https://ke-sun.github.io/publication/quigley-icra-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://ke-sun.github.io/publication/quigley-icra-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trajectory Optimization On Manifolds with Applications to SO(3) and R3XS2</title>
+      <link>https://ke-sun.github.io/publication/watterson-rss-2018/</link>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>https://ke-sun.github.io/publication/watterson-rss-2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dense 3-D Mapping with Spatial Correlation via Gaussian Filtering</title>
-      <link>https://ke-sun.github.io/publication/sun-2018-dense/</link>
+      <link>https://ke-sun.github.io/publication/sun-acc-2018/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://ke-sun.github.io/publication/sun-2018-dense/</guid>
+      <guid>https://ke-sun.github.io/publication/sun-acc-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Experiments in Fast, Autonomous, GPS-Denied Quadrotor Flight</title>
+      <link>https://ke-sun.github.io/publication/mohta-icra-2018/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://ke-sun.github.io/publication/mohta-icra-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Locomotive reduction for snake robots</title>
+      <link>https://ke-sun.github.io/publication/xiao-icra-2015/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://ke-sun.github.io/publication/xiao-icra-2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An Adaptive-Profile Active Shape Model for Facial-Feature Detection</title>
+      <link>https://ke-sun.github.io/publication/sun-icpr-2014/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://ke-sun.github.io/publication/sun-icpr-2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A low-cost and robust optical flow CMOS camera for velocity estimation</title>
+      <link>https://ke-sun.github.io/publication/sun-robio-2013/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://ke-sun.github.io/publication/sun-robio-2013/</guid>
       <description></description>
     </item>
     

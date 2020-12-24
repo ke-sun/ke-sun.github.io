@@ -33,22 +33,6 @@
     </item>
     
     <item>
-      <title>Belief Space Planning for Mobile Robots with Range Sensors using iLQG</title>
-      <link>https://ke-sun.github.io/publication/sun-2020-belief/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://ke-sun.github.io/publication/sun-2020-belief/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Stochastic Motion Planning under Partial Observability for Mobile Robots with Continuous Range Measurements</title>
-      <link>https://ke-sun.github.io/publication/sun-2020-stochastic/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://ke-sun.github.io/publication/sun-2020-stochastic/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Stochastic Motion Planning</title>
       <link>https://ke-sun.github.io/project/stochastic-motion-planning/</link>
       <pubDate>Mon, 21 Dec 2020 00:00:00 +0000</pubDate>
@@ -266,9 +250,25 @@ S-MSCKF has been tested and proved to be reliable in various challenging scenari
     
     <item>
       <title>Feedback Enhanced Motion Planning for Autonomous Vehicles</title>
-      <link>https://ke-sun.github.io/publication/sun-2020-feedback/</link>
+      <link>https://ke-sun.github.io/publication/sun-iros-2020/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://ke-sun.github.io/publication/sun-2020-feedback/</guid>
+      <guid>https://ke-sun.github.io/publication/sun-iros-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stochastic Motion Planning under Partial Observability for Mobile Robots with Continuous Range Measurements</title>
+      <link>https://ke-sun.github.io/publication/sun-tro-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://ke-sun.github.io/publication/sun-tro-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trajectory optimization on manifolds with applications to quadrotor systems</title>
+      <link>https://ke-sun.github.io/publication/watterson-ijrr-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://ke-sun.github.io/publication/watterson-ijrr-2020/</guid>
       <description></description>
     </item>
     
@@ -402,18 +402,58 @@ Three
     </item>
     
     <item>
+      <title>The Open Vision Computer: An Integrated Sensing and Compute System for Mobile Robots</title>
+      <link>https://ke-sun.github.io/publication/quigley-icra-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://ke-sun.github.io/publication/quigley-icra-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trajectory Optimization On Manifolds with Applications to SO(3) and R3XS2</title>
+      <link>https://ke-sun.github.io/publication/watterson-rss-2018/</link>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>https://ke-sun.github.io/publication/watterson-rss-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Dense 3-D Mapping with Spatial Correlation via Gaussian Filtering</title>
-      <link>https://ke-sun.github.io/publication/sun-2018-dense/</link>
+      <link>https://ke-sun.github.io/publication/sun-acc-2018/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://ke-sun.github.io/publication/sun-2018-dense/</guid>
+      <guid>https://ke-sun.github.io/publication/sun-acc-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Experiments in Fast, Autonomous, GPS-Denied Quadrotor Flight</title>
+      <link>https://ke-sun.github.io/publication/mohta-icra-2018/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://ke-sun.github.io/publication/mohta-icra-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fast, autonomous flight in GPS-denied and cluttered environments</title>
+      <link>https://ke-sun.github.io/publication/mohta-jfr-2018/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://ke-sun.github.io/publication/mohta-jfr-2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Robust Stereo Visual Inertial Odometry for Fast Autonomous Flight</title>
-      <link>https://ke-sun.github.io/publication/sun-2018-robust/</link>
+      <link>https://ke-sun.github.io/publication/sun-ral-2018/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://ke-sun.github.io/publication/sun-2018-robust/</guid>
+      <guid>https://ke-sun.github.io/publication/sun-ral-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Planning Dynamically Feasible Trajectories for Quadrotors Using Safe Flight Corridors in 3-D Complex Environments</title>
+      <link>https://ke-sun.github.io/publication/liu-ral-2017/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://ke-sun.github.io/publication/liu-ral-2017/</guid>
       <description></description>
     </item>
     
@@ -509,6 +549,30 @@ Three
 &lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Released under the &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Locomotive reduction for snake robots</title>
+      <link>https://ke-sun.github.io/publication/xiao-icra-2015/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://ke-sun.github.io/publication/xiao-icra-2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An Adaptive-Profile Active Shape Model for Facial-Feature Detection</title>
+      <link>https://ke-sun.github.io/publication/sun-icpr-2014/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://ke-sun.github.io/publication/sun-icpr-2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A low-cost and robust optical flow CMOS camera for velocity estimation</title>
+      <link>https://ke-sun.github.io/publication/sun-robio-2013/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://ke-sun.github.io/publication/sun-robio-2013/</guid>
+      <description></description>
     </item>
     
   </channel>
