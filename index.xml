@@ -185,7 +185,7 @@ Since there is no obstacle in the map, we may expect the robot to actively appro
       <pubDate>Sun, 20 Dec 2020 00:00:00 +0000</pubDate>
       <guid>https://ke-sun.github.io/project/autonomous-driving/</guid>
       <description>&lt;p&gt;This is an on-going research project funded by Qualcomm.
-The goal of the project is advance the motion/behavior planning algorithms for self-driving vehicles.&lt;/p&gt;
+The goal of the project is to advance the motion/behavior planning algorithms for self-driving vehicles.&lt;/p&gt;
 &lt;p&gt;As an initial step, we made the following assumptions to make the problem more accessible:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;The traffic is a deterministic system.&lt;/li&gt;
@@ -214,7 +214,7 @@ The lattice dimension to be searched is reduced, leading to a reduction in runti
       <link>https://ke-sun.github.io/project/fast-lightweight-autonomy/</link>
       <pubDate>Sat, 19 Dec 2020 00:00:00 +0000</pubDate>
       <guid>https://ke-sun.github.io/project/fast-lightweight-autonomy/</guid>
-      <description>&lt;p&gt;The project was funded by DARPA (2015-2018).
+      <description>&lt;p&gt;The project was funded by &lt;a href=&#34;https://www.darpa.mil/program/fast-lightweight-autonomy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DARPA (2015-2018)&lt;/a&gt;.
 The goal was to understand the capability of MAVs in navigating unknown cluttered environments rapidly and autonomously using only onboard sensors (GPS-denied) and computation devices (cannot contact ground control for instructions).&lt;/p&gt;
 &lt;p&gt;Maybe the PIs explained the project better than I did.
 &lt;a href=&#34;https://www.youtube.com/watch?v=_UFabSMuz6w&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;https://img.youtube.com/vi/_UFabSMuz6w/hqdefault.jpg&#34; alt=&#34;FLA interview&#34;&gt;&lt;/a&gt;&lt;/p&gt;
