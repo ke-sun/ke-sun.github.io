@@ -74,7 +74,7 @@ The specific task under consideration is to navigate a car-like robot with Lidar
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;As the figure shows, the modified iLQG (our work) is able to actively drive the robot along the wall for more accurate localization.&lt;/p&gt;
-&lt;p&gt;Related publication: &lt;a href=&#34;&#34;&gt;[under review]&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Related publication: &lt;a href=&#34;https://arxiv.org/abs/2102.05466&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[Sun, RAL2021]&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;pomcp-a-general-pomdp-solver&#34;&gt;&lt;strong&gt;POMCP++: A General POMDP Solver&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;Using iLQG to solve POMDPs is efficient in finding a local optimum.
 Especially, once the solution is found offline, the time to generate control inputs online is negligible.&lt;/p&gt;
