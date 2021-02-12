@@ -33,6 +33,14 @@
     </item>
     
     <item>
+      <title>Belief Space Planning for Mobile Robots with Range Sensors using iLQG</title>
+      <link>https://ke-sun.github.io/publication/sun-ral-2020/</link>
+      <pubDate>Sat, 06 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://ke-sun.github.io/publication/sun-ral-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Stochastic Motion Planning</title>
       <link>https://ke-sun.github.io/project/stochastic-motion-planning/</link>
       <pubDate>Mon, 21 Dec 2020 00:00:00 +0000</pubDate>
@@ -253,14 +261,6 @@ S-MSCKF has been tested and proved to be reliable in various challenging scenari
       <link>https://ke-sun.github.io/publication/sun-tro-2020/</link>
       <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
       <guid>https://ke-sun.github.io/publication/sun-tro-2020/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Belief Space Planning for Mobile Robots with Range Sensors using iLQG</title>
-      <link>https://ke-sun.github.io/publication/sun-ral-2020/</link>
-      <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>https://ke-sun.github.io/publication/sun-ral-2020/</guid>
       <description></description>
     </item>
     
