@@ -1,495 +1,134 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://ke-sun.github.io/talk/example/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ke-sun.github.io/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ke-sun.github.io/talk/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2021-02-11T21:12:43-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ke-sun.github.io/publication-type/2/</loc>
     <lastmod>2021-02-11T21:12:43-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ke-sun.github.io/publication/sun-ral-2020/</loc>
     <lastmod>2021-02-11T21:12:43-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2021-02-11T21:12:43-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ke-sun.github.io/publication_types/</loc>
     <lastmod>2021-02-11T21:12:43-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ke-sun.github.io/publication/</loc>
     <lastmod>2021-02-11T21:12:43-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2021-02-11T21:12:43-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ke-sun.github.io/project/</loc>
     <lastmod>2020-12-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ke-sun.github.io/project/stochastic-motion-planning/</loc>
     <lastmod>2020-12-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ke-sun.github.io/project/autonomous-driving/</loc>
     <lastmod>2020-12-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ke-sun.github.io/project/fast-lightweight-autonomy/</loc>
     <lastmod>2020-12-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-24T11:42:29-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-24T11:42:29-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ke-sun.github.io/publication/sun-tro-2020/</loc>
     <lastmod>2020-12-24T11:42:29-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ke-sun.github.io/publication-type/1/</loc>
     <lastmod>2020-12-24T11:42:29-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ke-sun.github.io/publication/sun-iros-2020/</loc>
     <lastmod>2020-12-24T11:42:29-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-24T11:42:29-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-24T11:42:29-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-24T11:42:29-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-24T11:42:29-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-24T11:42:29-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-24T11:42:29-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ke-sun.github.io/publication/watterson-ijrr-2020/</loc>
     <lastmod>2020-12-24T11:42:29-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-24T11:42:29-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-24T11:42:29-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ke-sun.github.io/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ke-sun.github.io/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-24T11:42:29-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-24T11:42:29-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-24T11:42:29-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-24T11:42:29-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-24T11:42:29-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-24T11:42:29-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-24T11:42:29-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-24T11:42:29-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ke-sun.github.io/publication/quigley-icra-2019/</loc>
     <lastmod>2020-12-24T11:42:29-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-24T11:42:29-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ke-sun.github.io/publication/watterson-rss-2018/</loc>
     <lastmod>2020-12-24T11:42:28-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ke-sun.github.io/tag/aerial-robotics/</loc>
     <lastmod>2020-12-24T11:42:28-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ke-sun.github.io/tag/collision-avoidance/</loc>
     <lastmod>2020-12-24T11:42:28-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ke-sun.github.io/tag/field-robots/</loc>
     <lastmod>2020-12-24T11:42:28-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ke-sun.github.io/tag/localization/</loc>
     <lastmod>2020-12-24T11:42:28-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ke-sun.github.io/tag/mapping/</loc>
     <lastmod>2020-12-24T11:42:28-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ke-sun.github.io/tag/motion-and-path-planning/</loc>
     <lastmod>2020-12-24T11:42:28-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ke-sun.github.io/tag/motion-control/</loc>
     <lastmod>2020-12-24T11:42:28-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ke-sun.github.io/tag/sensor-fusion/</loc>
     <lastmod>2020-12-24T11:42:28-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-24T11:42:28-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-24T11:42:28-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-24T11:42:28-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-24T11:42:28-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-24T11:42:28-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ke-sun.github.io/publication/sun-acc-2018/</loc>
     <lastmod>2020-12-24T11:42:28-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ke-sun.github.io/publication/mohta-icra-2018/</loc>
     <lastmod>2020-12-24T11:42:28-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ke-sun.github.io/publication/mohta-jfr-2018/</loc>
     <lastmod>2020-12-24T11:42:28-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-24T11:42:28-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-24T11:42:28-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-24T11:42:28-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-24T11:42:28-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-24T11:42:28-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-24T11:42:28-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-24T11:42:28-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-24T11:42:28-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-24T11:42:28-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-24T11:42:28-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ke-sun.github.io/publication/sun-ral-2018/</loc>
     <lastmod>2020-12-24T11:42:28-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ke-sun.github.io/tags/</loc>
     <lastmod>2020-12-24T11:42:28-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-24T11:42:28-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ke-sun.github.io/publication/liu-ral-2017/</loc>
     <lastmod>2020-12-24T11:42:27-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-24T11:42:27-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ke-sun.github.io/tag/academic/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ke-sun.github.io/categories/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ke-sun.github.io/category/demo/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ke-sun.github.io/post/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ke-sun.github.io/post/getting-started/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ke-sun.github.io/tag/%E5%BC%80%E6%BA%90/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ke-sun.github.io/category/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-24T11:42:27-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-24T11:42:27-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-24T11:42:27-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-24T11:42:27-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ke-sun.github.io/publication/xiao-icra-2015/</loc>
     <lastmod>2020-12-24T11:42:27-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-24T11:42:27-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-24T11:42:27-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-24T11:42:27-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ke-sun.github.io/publication/sun-icpr-2014/</loc>
     <lastmod>2020-12-24T11:42:27-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-24T11:42:27-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-24T11:42:27-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ke-sun.github.io/publication/sun-robio-2013/</loc>
     <lastmod>2020-12-24T11:42:27-05:00</lastmod>
   </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-24T11:42:27-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-24T11:42:27-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-24T11:42:27-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-24T11:42:27-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-24T11:42:27-05:00</lastmod>
-  </url>
-  
 </urlset>
